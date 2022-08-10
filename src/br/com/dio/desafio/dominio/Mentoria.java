@@ -7,6 +7,13 @@ public class Mentoria {
     private String descricao;
     private LocalDate data;
 
+
+    @Override
+    public double calcularXp() {
+        return 0;
+    }
+
+
     public Mentoria() {
     }
 
@@ -42,4 +49,5 @@ public class Mentoria {
                 ", data=" + data +
                 '}';
     }
+
 }
